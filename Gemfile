@@ -7,3 +7,7 @@ gem 'flay', '=1.4.0'
 gem 'construct', :git => 'http://github.com/devver/construct.git'
 gem 'googlecharts', '=1.6.0'
 
+group :development do
+  gem 'wirble'
+  gem 'hirb'
+end
